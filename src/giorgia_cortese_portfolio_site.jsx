@@ -320,7 +320,7 @@ const projects = [
               <section className="rounded-[28px] border border-white/10 bg-white/[0.03] p-8">
                 <div className="mb-6 flex items-center justify-between">
                   <h2 className="text-2xl font-semibold">Core Toolkit</h2>
-                  <span className="text-xs uppercase tracking-[0.3em] text-neutral-500">Systems & Languages</span>
+                  <span className="text-xs uppercase tracking-[0.3em] text-neutral-500">Systems & Tools</span>
                 </div>
                 <div className="flex flex-wrap gap-3 text-sm text-neutral-200">
                   {[
@@ -335,10 +335,21 @@ const projects = [
                     "Gemini",
                     "Gamma",
                     "Lovable",
-                    "Italian",
-                    "English",
-                    "Spanish",
                   ].map((item) => (
+                    <span key={item} className="rounded-full border border-white/10 bg-black/20 px-4 py-2">
+                      {item}
+                    </span>
+                  ))}
+                </div>
+              </section>
+
+              <section className="rounded-[28px] border border-white/10 bg-white/[0.03] p-8">
+                <div className="mb-6 flex items-center justify-between">
+                  <h2 className="text-2xl font-semibold">Languages</h2>
+                  <span className="text-xs uppercase tracking-[0.3em] text-neutral-500">Communication</span>
+                </div>
+                <div className="flex flex-wrap gap-3 text-sm text-neutral-200">
+                  {["Italian", "English", "Spanish"].map((item) => (
                     <span key={item} className="rounded-full border border-white/10 bg-black/20 px-4 py-2">
                       {item}
                     </span>
