@@ -162,7 +162,7 @@ const projects = [
                 A future-facing profile engineered at the intersection of <span className="text-white">digital transformation</span>, <span className="text-white">systems thinking</span>, and <span className="text-white">scientific and industrial sensitivity</span>. Built through industrial engineering, refined through LUISS, and directed toward the premium mobility sector.
               </p>
               <div className="mt-8 flex flex-wrap gap-3 text-sm text-neutral-200">
-                <span className="rounded-full border border-white/10 bg-white/[0.04] px-4 py-2">Rome / Naples, Italy</span>
+                <span className="rounded-full border border-white/10 bg-white/[0.04] px-4 py-2">Rome, Italy</span>
                 <span className="rounded-full border border-white/10 bg-white/[0.04] px-4 py-2">English · Italian · Spanish</span>
                 <span className="rounded-full border border-white/10 bg-white/[0.04] px-4 py-2">Digital Transformation MSc</span>
               </div>
@@ -368,7 +368,7 @@ const projects = [
               <span className="text-xs uppercase tracking-[0.3em] text-neutral-500">Direct Line</span>
             </div>
             <div className="grid gap-4 text-neutral-300">
-              <p>📍 Rome / Naples, Italy — Open to relocation</p>
+              <p>📍 Rome, Italy — Open to relocation</p>
               <p>📧 giorgiacortese2609@gmail.com</p>
               <p>📞 +39 392 165 4609</p>
               <p className="text-neutral-400 text-sm">Portfolio available upon request and designed as a strategic extension of interview discussions.</p>
