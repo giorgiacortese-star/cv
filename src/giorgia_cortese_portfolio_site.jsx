@@ -197,13 +197,13 @@ const projects = [
               </div>
               <div className="space-y-5 text-neutral-300 leading-7">
                 <p>
-                  My trajectory began in <span className="text-white">Industrial Engineering</span>, where I learned to read systems not as isolated components, but as interdependent architectures shaped by performance, precision, and constraints. That foundation now informs the way I interpret business, technology, and transformation.
+                  My trajectory began in <span className="text-white">Industrial Engineering</span>, where I learned to read systems as interdependent architectures shaped by precision, constraints, and measurable performance. That foundation continues to inform how I evaluate business, technology, and transformation.
                 </p>
                 <p>
-                  At <span className="text-white">Luiss Business School</span>, I am refining that technical mindset through Digital Transformation, focusing on process redesign, data architecture, and AI-enabled innovation. The result is a profile that does not simply follow digital trends, but evaluates how they can be integrated into robust, scalable operating models.
+                  At <span className="text-white">Luiss Business School</span>, I am refining that technical mindset through Digital Transformation, with a focus on process redesign, data architecture, and AI-enabled innovation, building a profile oriented toward integrating emerging technologies into robust, scalable operating models.
                 </p>
                 <p>
-                  My professional energy is directed toward the pharma, biotechnology, and advanced chemical industries: environments where scientific rigor, regulatory precision, and process excellence must operate in perfect alignment. I am especially drawn to contexts where digital strategy enhances manufacturing intelligence, accelerates innovation cycles, and reinforces compliance-driven systems.
+                  My focus is directed toward pharma, biotechnology, and advanced chemical industries, where scientific rigor and process excellence must operate in full alignment with digital transformation. My goal is to contribute at the intersection of these disciplines, where engineering thinking meets intelligent systems design.
                 </p>
               </div>
             </div>
