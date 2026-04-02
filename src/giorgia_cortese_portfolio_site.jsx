@@ -177,7 +177,7 @@ const projects = [
               <div className="rounded-[24px] border border-white/10 bg-black/30 p-5">
                 <p className="text-xs uppercase tracking-[0.3em] text-neutral-500">Positioning</p>
                 <p className="mt-3 text-lg leading-7 text-neutral-200">
-                  Engineering discipline and digital transformation applied to pharma, biotech, and intelligent manufacturing systems — where scientific rigor meets process-driven innovation.
+                  Engineering discipline meets AI-driven digital transformation across pharma, biotech, and intelligent manufacturing systems — bridging scientific rigor with data-powered process innovation.
                 </p>
               </div>
               <div className="rounded-[24px] border border-white/10 bg-black/30 p-5">
