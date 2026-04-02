@@ -140,7 +140,7 @@ const projects = [
     {
       title: "AI-Driven Digital Transformation",
       text:
-        "The next competitive frontier lies in reimagining how pharma and biotech organizations operate — leveraging AI, data architecture, and process digitalization to build faster, more adaptive business systems. This is the space where I want to operate — designing and implementing AI-driven transformation initiatives in complex industrial organizations.",
+        "The next competitive frontier lies in reimagining how pharma and biotech organizations operate — leveraging AI, data architecture, and process digitalization to build faster, more adaptive business systems. With my master's degree, I am building toward designing and implementing AI-driven transformation initiatives in complex industrial organizations.",
     },
     {
       title: "Industrial Process Engineering",
