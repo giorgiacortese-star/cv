@@ -7,7 +7,6 @@ export default function GiorgiaCortesePortfolio() {
       "AI for business applications",
       "Predictive analytics",
       "SQL and database design",
-      "Visual storytelling and brand positioning",
     ],
     technicalAnalytical: [
       "Analytical problem-solving under technical constraints",
@@ -141,7 +140,7 @@ const projects = [
     {
       title: "AI-Driven Digital Transformation",
       text:
-        "The next competitive frontier lies in reimagining how pharma and biotech organizations operate, leveraging AI, data architecture, and process digitalization to build faster, more adaptive business systems.",
+        "The next competitive frontier lies in reimagining how pharma and biotech organizations operate — leveraging AI, data architecture, and process digitalization to build faster, more adaptive business systems.",
     },
     {
       title: "Industrial Process Engineering",
@@ -169,7 +168,7 @@ const projects = [
               </p>
               <div className="mt-8 flex flex-wrap gap-3 text-sm text-neutral-200">
                 <span className="rounded-full border border-white/10 bg-white/[0.04] px-4 py-2">Rome, Italy</span>
-                <span className="rounded-full border border-white/10 bg-white/[0.04] px-4 py-2">English · Italian · Spanish</span>
+                <span className="rounded-full border border-white/10 bg-white/[0.04] px-4 py-2">Italian — native · English — fluent · Spanish — conversational</span>
                 <span className="rounded-full border border-white/10 bg-white/[0.04] px-4 py-2">Digital Transformation MSc</span>
               </div>
             </div>
@@ -178,13 +177,13 @@ const projects = [
               <div className="rounded-[24px] border border-white/10 bg-black/30 p-5">
                 <p className="text-xs uppercase tracking-[0.3em] text-neutral-500">Positioning</p>
                 <p className="mt-3 text-lg leading-7 text-neutral-200">
-                  Business-school polish with engineering discipline and an automotive-operational lens.
+                  Engineering discipline and digital transformation applied to pharma, biotech, and intelligent manufacturing systems — where scientific rigor meets process-driven innovation.
                 </p>
               </div>
               <div className="rounded-[24px] border border-white/10 bg-black/30 p-5">
-                <p className="text-xs uppercase tracking-[0.3em] text-neutral-500">Northbound Vector</p>
+                <p className="text-xs uppercase tracking-[0.3em] text-neutral-500">Current direction</p>
                 <p className="mt-3 text-lg leading-7 text-neutral-200">
-                  Pharma and chemical industries, digital innovation, process-driven transformation, and intelligent production ecosystems.
+                  Focused on the convergence of industrial chemical engineering and digital transformation in pharma and biotech contexts — spanning process re-engineering, data-driven manufacturing, and AI-powered operational intelligence.
                 </p>
               </div>
             </div>
@@ -299,7 +298,7 @@ const projects = [
                     "C++",
                     "LaTeX",
                     "Canva",
-                    "Codex",
+                    "Notion",
                     "Cursor",
                     "Claude",
                     "Gemini",
@@ -319,7 +318,11 @@ const projects = [
                   <span className="text-xs uppercase tracking-[0.3em] text-neutral-500">Communication</span>
                 </div>
                 <div className="flex flex-wrap gap-3 text-sm text-neutral-200">
-                  {["Italian", "English", "Spanish"].map((item) => (
+                  {[
+                    "Italian — native",
+                    "English — fluent",
+                    "Spanish — conversational",
+                  ].map((item) => (
                     <span key={item} className="rounded-full border border-white/10 bg-black/20 px-4 py-2">
                       {item}
                     </span>
