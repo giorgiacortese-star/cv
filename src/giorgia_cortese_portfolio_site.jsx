@@ -244,6 +244,82 @@ const projects = [
 
           <section className="rounded-[28px] border border-white/10 bg-white/[0.03] p-8">
             <div className="mb-8 flex items-center justify-between">
+              <h2 className="text-2xl font-semibold">Future Concepts</h2>
+              <span className="text-xs uppercase tracking-[0.3em] text-neutral-500">Industry Vision</span>
+            </div>
+            <div className="grid gap-6 lg:grid-cols-3">
+              {futureConcepts.map((item) => (
+                <article key={item.title} className="rounded-[24px] border border-white/10 bg-black/20 p-6">
+                  <h3 className="text-lg font-semibold text-white">{item.title}</h3>
+                  <p className="mt-4 text-sm leading-7 text-neutral-300">{item.text}</p>
+                </article>
+              ))}
+            </div>
+          </section>
+
+          <section className="grid gap-8 lg:grid-cols-[0.95fr_1.05fr]">
+            <div className="rounded-[28px] border border-white/10 bg-white/[0.03] p-8">
+              <div className="mb-6 flex items-center justify-between">
+                <h2 className="text-2xl font-semibold">Education</h2>
+                <span className="text-xs uppercase tracking-[0.3em] text-neutral-500">Academic Platform</span>
+              </div>
+              <div className="space-y-5">
+                {education.map((item) => (
+                  <article key={item.title} className="rounded-[24px] border border-white/10 bg-black/20 p-5">
+                    <p className="text-sm text-neutral-500">{item.period}</p>
+                    <h3 className="mt-2 text-lg font-semibold text-white">{item.title}</h3>
+                    <p className="mt-1 text-sm uppercase tracking-[0.18em] text-neutral-400">{item.school}</p>
+                    <p className="mt-4 text-sm leading-6 text-neutral-300">{item.details}</p>
+                  </article>
+                ))}
+              </div>
+            </div>
+
+            <div className="grid gap-8">
+              <section className="rounded-[28px] border border-white/10 bg-white/[0.03] p-8">
+                <div className="mb-6 flex items-center justify-between">
+                  <h2 className="text-2xl font-semibold">Core Toolkit</h2>
+                  <span className="text-xs uppercase tracking-[0.3em] text-neutral-500">Systems & Tools</span>
+                </div>
+                <div className="flex flex-wrap gap-3 text-sm text-neutral-200">
+                  {[
+                    "Excel",
+                    "MATLAB",
+                    "C++",
+                    "LaTeX",
+                    "Canva",
+                    "Codex",
+                    "Cursor",
+                    "Claude",
+                    "Gemini",
+                    "Gamma",
+                    "Lovable",
+                  ].map((item) => (
+                    <span key={item} className="rounded-full border border-white/10 bg-black/20 px-4 py-2">
+                      {item}
+                    </span>
+                  ))}
+                </div>
+              </section>
+
+              <section className="rounded-[28px] border border-white/10 bg-white/[0.03] p-8">
+                <div className="mb-6 flex items-center justify-between">
+                  <h2 className="text-2xl font-semibold">Languages</h2>
+                  <span className="text-xs uppercase tracking-[0.3em] text-neutral-500">Communication</span>
+                </div>
+                <div className="flex flex-wrap gap-3 text-sm text-neutral-200">
+                  {["Italian", "English", "Spanish"].map((item) => (
+                    <span key={item} className="rounded-full border border-white/10 bg-black/20 px-4 py-2">
+                      {item}
+                    </span>
+                  ))}
+                </div>
+              </section>
+            </div>
+          </section>
+
+          <section className="rounded-[28px] border border-white/10 bg-white/[0.03] p-8">
+            <div className="mb-8 flex items-center justify-between">
               <h2 className="text-2xl font-semibold">Pharma Prototype</h2>
               <span className="text-xs uppercase tracking-[0.3em] text-neutral-500">Flagship Project</span>
             </div>
@@ -300,80 +376,6 @@ const projects = [
                   </article>
                 ))}
               </div>
-            </div>
-
-            <div className="grid gap-8">
-              <section className="rounded-[28px] border border-white/10 bg-white/[0.03] p-8">
-                <div className="mb-6 flex items-center justify-between">
-                  <h2 className="text-2xl font-semibold">Education</h2>
-                  <span className="text-xs uppercase tracking-[0.3em] text-neutral-500">Academic Platform</span>
-                </div>
-                <div className="space-y-5">
-                  {education.map((item) => (
-                    <article key={item.title} className="rounded-[24px] border border-white/10 bg-black/20 p-5">
-                      <p className="text-sm text-neutral-500">{item.period}</p>
-                      <h3 className="mt-2 text-lg font-semibold text-white">{item.title}</h3>
-                      <p className="mt-1 text-sm uppercase tracking-[0.18em] text-neutral-400">{item.school}</p>
-                      <p className="mt-4 text-sm leading-6 text-neutral-300">{item.details}</p>
-                    </article>
-                  ))}
-                </div>
-              </section>
-
-              <section className="rounded-[28px] border border-white/10 bg-white/[0.03] p-8">
-                <div className="mb-6 flex items-center justify-between">
-                  <h2 className="text-2xl font-semibold">Core Toolkit</h2>
-                  <span className="text-xs uppercase tracking-[0.3em] text-neutral-500">Systems & Tools</span>
-                </div>
-                <div className="flex flex-wrap gap-3 text-sm text-neutral-200">
-                  {[
-                    "Excel",
-                    "MATLAB",
-                    "C++",
-                    "LaTeX",
-                    "Canva",
-                    "Codex",
-                    "Cursor",
-                    "Claude",
-                    "Gemini",
-                    "Gamma",
-                    "Lovable",
-                  ].map((item) => (
-                    <span key={item} className="rounded-full border border-white/10 bg-black/20 px-4 py-2">
-                      {item}
-                    </span>
-                  ))}
-                </div>
-              </section>
-
-              <section className="rounded-[28px] border border-white/10 bg-white/[0.03] p-8">
-                <div className="mb-6 flex items-center justify-between">
-                  <h2 className="text-2xl font-semibold">Languages</h2>
-                  <span className="text-xs uppercase tracking-[0.3em] text-neutral-500">Communication</span>
-                </div>
-                <div className="flex flex-wrap gap-3 text-sm text-neutral-200">
-                  {["Italian", "English", "Spanish"].map((item) => (
-                    <span key={item} className="rounded-full border border-white/10 bg-black/20 px-4 py-2">
-                      {item}
-                    </span>
-                  ))}
-                </div>
-              </section>
-            </div>
-          </section>
-
-          <section className="rounded-[28px] border border-white/10 bg-white/[0.03] p-8">
-            <div className="mb-8 flex items-center justify-between">
-              <h2 className="text-2xl font-semibold">Future Concepts</h2>
-              <span className="text-xs uppercase tracking-[0.3em] text-neutral-500">Industry Vision</span>
-            </div>
-            <div className="grid gap-6 lg:grid-cols-3">
-              {futureConcepts.map((item) => (
-                <article key={item.title} className="rounded-[24px] border border-white/10 bg-black/20 p-6">
-                  <h3 className="text-lg font-semibold text-white">{item.title}</h3>
-                  <p className="mt-4 text-sm leading-7 text-neutral-300">{item.text}</p>
-                </article>
-              ))}
             </div>
           </section>
                   <section className="rounded-[28px] border border-white/10 bg-white/[0.03] p-8">
