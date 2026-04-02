@@ -401,6 +401,15 @@ const projects = [
               <p>📍 Rome, Italy — Open to relocation</p>
               <p>📧 giorgiacortese2609@gmail.com</p>
               <p>📞 +39 392 165 4609</p>
+              <p>
+                🔗{" "}
+                <a
+                  href="https://www.linkedin.com/in/giorgia-cortese-728494388"
+                  className="text-sky-700 underline decoration-sky-300 underline-offset-4"
+                >
+                  linkedin.com/in/giorgia-cortese-728494388
+                </a>
+              </p>
               <p className="text-sky-800/70 text-sm">Portfolio available upon request and designed as a strategic extension of interview discussions.</p>
             </div>
           </section>
