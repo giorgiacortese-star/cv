@@ -155,34 +155,34 @@ const projects = [
   ];
 
   return (
-    <div className="min-h-screen bg-neutral-950 text-neutral-100 selection:bg-neutral-200 selection:text-neutral-950">
-      <div className="absolute inset-0 opacity-[0.06] [background-image:linear-gradient(to_right,#ffffff_1px,transparent_1px),linear-gradient(to_bottom,#ffffff_1px,transparent_1px)] [background-size:48px_48px]" />
+    <div className="min-h-screen bg-[linear-gradient(180deg,#f4fbff_0%,#d7ebff_100%)] text-slate-950 selection:bg-sky-200 selection:text-slate-950">
+      <div className="absolute inset-0 opacity-[0.22] [background-image:linear-gradient(to_right,rgba(18,85,160,0.08)_1px,transparent_1px),linear-gradient(to_bottom,rgba(18,85,160,0.08)_1px,transparent_1px)] [background-size:48px_48px]" />
       <div className="relative mx-auto max-w-7xl px-6 py-8 md:px-10 lg:px-12">
-        <header className="rounded-[28px] border border-white/10 bg-white/[0.03] p-8 shadow-2xl backdrop-blur md:p-12">
+        <header className="rounded-[28px] border border-white/60 bg-white/55 p-8 shadow-[0_28px_60px_rgba(25,71,128,0.16)] backdrop-blur md:p-12">
           <div className="grid gap-10 lg:grid-cols-[1.25fr_0.75fr] lg:items-end">
             <div>
-              <p className="mb-4 text-xs uppercase tracking-[0.35em] text-neutral-400">Digital Innovation · Pharma & Chemical Systems · Precision-driven Execution</p>
+              <p className="mb-4 text-xs uppercase tracking-[0.35em] text-sky-800/70">Digital Innovation · Pharma & Chemical Systems · Precision-driven Execution</p>
               <h1 className="max-w-4xl text-4xl font-semibold tracking-tight md:text-6xl">Giorgia Cortese</h1>
-              <p className="mt-5 max-w-3xl text-base leading-7 text-neutral-300 md:text-lg">
-                A future-facing profile engineered at the intersection of <span className="text-white">digital transformation</span>, <span className="text-white">systems thinking</span>, and <span className="text-white">scientific and industrial sensitivity</span>. Built through industrial engineering, refined through LUISS, and directed toward the premium mobility sector.
+              <p className="mt-5 max-w-3xl text-base leading-7 text-slate-700 md:text-lg">
+                A future-facing profile engineered at the intersection of <span className="text-sky-700">digital transformation</span>, <span className="text-sky-700">systems thinking</span>, and <span className="text-sky-700">scientific and industrial sensitivity</span>. Built through industrial engineering, refined through LUISS, and directed toward the premium mobility sector.
               </p>
-              <div className="mt-8 flex flex-wrap gap-3 text-sm text-neutral-200">
-                <span className="rounded-full border border-white/10 bg-white/[0.04] px-4 py-2">Rome, Italy</span>
-                <span className="rounded-full border border-white/10 bg-white/[0.04] px-4 py-2">Italian — native · English — fluent · Spanish — conversational</span>
-                <span className="rounded-full border border-white/10 bg-white/[0.04] px-4 py-2">Digital Transformation MSc</span>
+              <div className="mt-8 flex flex-wrap gap-3 text-sm text-slate-700">
+                <span className="rounded-full border border-sky-200 bg-white/70 px-4 py-2">Rome, Italy</span>
+                <span className="rounded-full border border-sky-200 bg-white/70 px-4 py-2">Italian — native · English — fluent · Spanish — conversational</span>
+                <span className="rounded-full border border-sky-200 bg-white/70 px-4 py-2">Digital Transformation MSc</span>
               </div>
             </div>
 
             <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-1">
-              <div className="rounded-[24px] border border-white/10 bg-black/30 p-5">
-                <p className="text-xs uppercase tracking-[0.3em] text-neutral-500">Positioning</p>
-                <p className="mt-3 text-lg leading-7 text-neutral-200">
+              <div className="rounded-[24px] border border-sky-200 bg-sky-950/90 p-5">
+                <p className="text-xs uppercase tracking-[0.3em] text-sky-200/70">Positioning</p>
+                <p className="mt-3 text-lg leading-7 text-sky-50">
                   Engineering discipline meets AI-driven digital transformation across pharma, biotech, and intelligent manufacturing systems — bridging scientific rigor with data-powered process innovation.
                 </p>
               </div>
-              <div className="rounded-[24px] border border-white/10 bg-black/30 p-5">
-                <p className="text-xs uppercase tracking-[0.3em] text-neutral-500">Current direction</p>
-                <p className="mt-3 text-lg leading-7 text-neutral-200">
+              <div className="rounded-[24px] border border-sky-200 bg-cyan-900/90 p-5">
+                <p className="text-xs uppercase tracking-[0.3em] text-cyan-100/70">Current direction</p>
+                <p className="mt-3 text-lg leading-7 text-cyan-50">
                   Focused on the convergence of industrial chemical engineering and digital transformation in pharma and biotech contexts — spanning process re-engineering, data-driven manufacturing, and AI-powered operational intelligence.
                 </p>
               </div>
@@ -192,17 +192,17 @@ const projects = [
 
         <main className="mt-8 grid gap-8">
           <section className="grid gap-8 lg:grid-cols-[0.95fr_1.05fr]">
-            <div className="rounded-[28px] border border-white/10 bg-white/[0.03] p-8">
+            <div className="rounded-[28px] border border-white/60 bg-white/55 p-8">
               <div className="mb-6 flex items-center justify-between">
                 <h2 className="text-2xl font-semibold">Heritage</h2>
-                <span className="text-xs uppercase tracking-[0.3em] text-neutral-500">About Me</span>
+                <span className="text-xs uppercase tracking-[0.3em] text-sky-800/70">About Me</span>
               </div>
-              <div className="space-y-5 text-neutral-300 leading-7">
+              <div className="space-y-5 text-slate-700 leading-7">
                 <p>
-                  My trajectory began in <span className="text-white">Industrial Engineering</span>, where I learned to read systems as interdependent architectures shaped by precision, constraints, and measurable performance. That foundation continues to inform how I evaluate business, technology, and transformation.
+                  My trajectory began in <span className="text-sky-700">Industrial Engineering</span>, where I learned to read systems as interdependent architectures shaped by precision, constraints, and measurable performance. That foundation continues to inform how I evaluate business, technology, and transformation.
                 </p>
                 <p>
-                  At <span className="text-white">Luiss Business School</span>, I am refining that technical mindset through Digital Transformation, with a focus on process redesign, data architecture, and AI-enabled innovation, building a profile oriented toward integrating emerging technologies into robust, scalable operating models.
+                  At <span className="text-sky-700">Luiss Business School</span>, I am refining that technical mindset through Digital Transformation, with a focus on process redesign, data architecture, and AI-enabled innovation, building a profile oriented toward integrating emerging technologies into robust, scalable operating models.
                 </p>
                 <p>
                   My focus is directed toward pharma, biotechnology, and advanced chemical industries, where scientific rigor and process excellence must operate in full alignment with digital transformation. My goal is to contribute at the intersection of these disciplines, where engineering thinking meets intelligent systems design.
@@ -210,39 +210,39 @@ const projects = [
               </div>
             </div>
 
-            <div className="rounded-[28px] border border-white/10 bg-white/[0.03] p-8">
+            <div className="rounded-[28px] border border-white/60 bg-white/55 p-8">
               <div className="mb-6 flex items-center justify-between">
                 <h2 className="text-2xl font-semibold">Technical Specs</h2>
-                <span className="text-xs uppercase tracking-[0.3em] text-neutral-500">Capabilities Matrix</span>
+                <span className="text-xs uppercase tracking-[0.3em] text-sky-800/70">Capabilities Matrix</span>
               </div>
               <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
-                <div className="rounded-[24px] border border-white/10 bg-black/20 p-5">
-                  <h3 className="text-sm font-medium uppercase tracking-[0.25em] text-neutral-400">Digital Innovation</h3>
-                  <ul className="mt-4 space-y-3 text-sm leading-6 text-neutral-300">
+                <div className="rounded-[24px] border border-sky-200 bg-white/75 p-5">
+                  <h3 className="text-sm font-medium uppercase tracking-[0.25em] text-sky-800/70">Digital Innovation</h3>
+                  <ul className="mt-4 space-y-3 text-sm leading-6 text-slate-700">
                     {skills.digitalInnovation.map((item) => (
                       <li key={item}>• {item}</li>
                     ))}
                   </ul>
                 </div>
-                <div className="rounded-[24px] border border-white/10 bg-black/20 p-5">
-                  <h3 className="text-sm font-medium uppercase tracking-[0.25em] text-neutral-400">Technical &amp; Analytical Skills</h3>
-                  <ul className="mt-4 space-y-3 text-sm leading-6 text-neutral-300">
+                <div className="rounded-[24px] border border-sky-200 bg-white/75 p-5">
+                  <h3 className="text-sm font-medium uppercase tracking-[0.25em] text-sky-800/70">Technical &amp; Analytical Skills</h3>
+                  <ul className="mt-4 space-y-3 text-sm leading-6 text-slate-700">
                     {skills.technicalAnalytical.map((item) => (
                       <li key={item}>• {item}</li>
                     ))}
                   </ul>
                 </div>
-                <div className="rounded-[24px] border border-white/10 bg-black/20 p-5">
-                  <h3 className="text-sm font-medium uppercase tracking-[0.25em] text-neutral-400">Leadership &amp; Soft Skills</h3>
-                  <ul className="mt-4 space-y-3 text-sm leading-6 text-neutral-300">
+                <div className="rounded-[24px] border border-sky-200 bg-white/75 p-5">
+                  <h3 className="text-sm font-medium uppercase tracking-[0.25em] text-sky-800/70">Leadership &amp; Soft Skills</h3>
+                  <ul className="mt-4 space-y-3 text-sm leading-6 text-slate-700">
                     {skills.leadershipSoftSkills.map((item) => (
                       <li key={item}>• {item}</li>
                     ))}
                   </ul>
                 </div>
-                <div className="rounded-[24px] border border-white/10 bg-black/20 p-5">
-                  <h3 className="text-sm font-medium uppercase tracking-[0.25em] text-neutral-400">Pharma & Chemical Intelligence</h3>
-                  <ul className="mt-4 space-y-3 text-sm leading-6 text-neutral-300">
+                <div className="rounded-[24px] border border-sky-200 bg-white/75 p-5">
+                  <h3 className="text-sm font-medium uppercase tracking-[0.25em] text-sky-800/70">Pharma & Chemical Intelligence</h3>
+                  <ul className="mt-4 space-y-3 text-sm leading-6 text-slate-700">
                     {skills.marketIntelligence.map((item) => (
                       <li key={item}>• {item}</li>
                     ))}
@@ -252,46 +252,46 @@ const projects = [
             </div>
           </section>
 
-          <section className="rounded-[28px] border border-white/10 bg-white/[0.03] p-8">
+          <section className="rounded-[28px] border border-white/60 bg-white/55 p-8">
             <div className="mb-8 flex items-center justify-between">
               <h2 className="text-2xl font-semibold">Future Concepts</h2>
-              <span className="text-xs uppercase tracking-[0.3em] text-neutral-500">Industry Vision</span>
+              <span className="text-xs uppercase tracking-[0.3em] text-sky-800/70">Industry Vision</span>
             </div>
             <div className="grid gap-6 lg:grid-cols-3">
               {futureConcepts.map((item) => (
-                <article key={item.title} className="rounded-[24px] border border-white/10 bg-black/20 p-6">
-                  <h3 className="text-lg font-semibold text-white">{item.title}</h3>
-                  <p className="mt-4 text-sm leading-7 text-neutral-300">{item.text}</p>
+                <article key={item.title} className="rounded-[24px] border border-sky-200 bg-white/75 p-6">
+                  <h3 className="text-lg font-semibold text-slate-950">{item.title}</h3>
+                  <p className="mt-4 text-sm leading-7 text-slate-700">{item.text}</p>
                 </article>
               ))}
             </div>
           </section>
 
           <section className="grid gap-8 lg:grid-cols-[0.95fr_1.05fr]">
-            <div className="rounded-[28px] border border-white/10 bg-white/[0.03] p-8">
+            <div className="rounded-[28px] border border-white/60 bg-white/55 p-8">
               <div className="mb-6 flex items-center justify-between">
                 <h2 className="text-2xl font-semibold">Education</h2>
-                <span className="text-xs uppercase tracking-[0.3em] text-neutral-500">Academic Platform</span>
+                <span className="text-xs uppercase tracking-[0.3em] text-sky-800/70">Academic Platform</span>
               </div>
               <div className="space-y-5">
                 {education.map((item) => (
-                  <article key={item.title} className="rounded-[24px] border border-white/10 bg-black/20 p-5">
-                    <p className="text-sm text-neutral-500">{item.period}</p>
-                    <h3 className="mt-2 text-lg font-semibold text-white">{item.title}</h3>
-                    <p className="mt-1 text-sm uppercase tracking-[0.18em] text-neutral-400">{item.school}</p>
-                    <p className="mt-4 text-sm leading-6 text-neutral-300">{item.details}</p>
+                  <article key={item.title} className="rounded-[24px] border border-sky-200 bg-white/75 p-5">
+                    <p className="text-sm text-sky-800/70">{item.period}</p>
+                    <h3 className="mt-2 text-lg font-semibold text-slate-950">{item.title}</h3>
+                    <p className="mt-1 text-sm uppercase tracking-[0.18em] text-sky-700/80">{item.school}</p>
+                    <p className="mt-4 text-sm leading-6 text-slate-700">{item.details}</p>
                   </article>
                 ))}
               </div>
             </div>
 
             <div className="grid gap-8">
-              <section className="rounded-[28px] border border-white/10 bg-white/[0.03] p-8">
+              <section className="rounded-[28px] border border-white/60 bg-white/55 p-8">
                 <div className="mb-6 flex items-center justify-between">
                   <h2 className="text-2xl font-semibold">Core Toolkit</h2>
-                  <span className="text-xs uppercase tracking-[0.3em] text-neutral-500">Systems & Tools</span>
+                  <span className="text-xs uppercase tracking-[0.3em] text-sky-800/70">Systems & Tools</span>
                 </div>
-                <div className="flex flex-wrap gap-3 text-sm text-neutral-200">
+                <div className="flex flex-wrap gap-3 text-sm text-slate-700">
                   {[
                     "Excel",
                     "MATLAB",
@@ -305,25 +305,25 @@ const projects = [
                     "Gamma",
                     "Lovable",
                   ].map((item) => (
-                    <span key={item} className="rounded-full border border-white/10 bg-black/20 px-4 py-2">
+                    <span key={item} className="rounded-full border border-sky-200 bg-white/75 px-4 py-2">
                       {item}
                     </span>
                   ))}
                 </div>
               </section>
 
-              <section className="rounded-[28px] border border-white/10 bg-white/[0.03] p-8">
+              <section className="rounded-[28px] border border-white/60 bg-white/55 p-8">
                 <div className="mb-6 flex items-center justify-between">
                   <h2 className="text-2xl font-semibold">Languages</h2>
-                  <span className="text-xs uppercase tracking-[0.3em] text-neutral-500">Communication</span>
+                  <span className="text-xs uppercase tracking-[0.3em] text-sky-800/70">Communication</span>
                 </div>
-                <div className="flex flex-wrap gap-3 text-sm text-neutral-200">
+                <div className="flex flex-wrap gap-3 text-sm text-slate-700">
                   {[
                     "Italian — native",
                     "English — fluent",
                     "Spanish — conversational",
                   ].map((item) => (
-                    <span key={item} className="rounded-full border border-white/10 bg-black/20 px-4 py-2">
+                    <span key={item} className="rounded-full border border-sky-200 bg-white/75 px-4 py-2">
                       {item}
                     </span>
                   ))}
@@ -332,16 +332,16 @@ const projects = [
             </div>
           </section>
 
-          <section className="rounded-[28px] border border-white/10 bg-white/[0.03] p-8">
+          <section className="rounded-[28px] border border-white/60 bg-white/55 p-8">
             <div className="mb-8 flex items-center justify-between">
               <h2 className="text-2xl font-semibold">Pharma Prototype</h2>
-              <span className="text-xs uppercase tracking-[0.3em] text-neutral-500">Flagship Project</span>
+              <span className="text-xs uppercase tracking-[0.3em] text-sky-800/70">Flagship Project</span>
             </div>
-            <article className="rounded-[24px] border border-white/10 bg-black/20 p-6">
-              <p className="text-sm text-neutral-500">{pharmaPrototype.period}</p>
-              <h3 className="mt-2 text-xl font-semibold text-white">{pharmaPrototype.title}</h3>
-              <p className="mt-1 text-sm uppercase tracking-[0.2em] text-neutral-400">{pharmaPrototype.organization}</p>
-              <ul className="mt-5 space-y-3 text-sm leading-6 text-neutral-300">
+            <article className="rounded-[24px] border border-sky-200 bg-white/75 p-6">
+              <p className="text-sm text-sky-800/70">{pharmaPrototype.period}</p>
+              <h3 className="mt-2 text-xl font-semibold text-slate-950">{pharmaPrototype.title}</h3>
+              <p className="mt-1 text-sm uppercase tracking-[0.2em] text-sky-700/80">{pharmaPrototype.organization}</p>
+              <ul className="mt-5 space-y-3 text-sm leading-6 text-slate-700">
                 {pharmaPrototype.bullets.map((bullet) => (
                   <li key={bullet}>• {bullet}</li>
                 ))}
@@ -349,18 +349,18 @@ const projects = [
             </article>
           </section>
 
-          <section className="rounded-[28px] border border-white/10 bg-white/[0.03] p-8">
+          <section className="rounded-[28px] border border-white/60 bg-white/55 p-8">
             <div className="mb-8 flex items-center justify-between">
               <h2 className="text-2xl font-semibold">The Prototype</h2>
-              <span className="text-xs uppercase tracking-[0.3em] text-neutral-500">Experience</span>
+              <span className="text-xs uppercase tracking-[0.3em] text-sky-800/70">Experience</span>
             </div>
             <div className="grid gap-6 lg:grid-cols-2">
               {experience.map((item) => (
-                <article key={item.title} className="rounded-[24px] border border-white/10 bg-black/20 p-6">
-                  <p className="text-sm text-neutral-500">{item.period}</p>
-                  <h3 className="mt-2 text-xl font-semibold text-white">{item.title}</h3>
-                  <p className="mt-1 text-sm uppercase tracking-[0.2em] text-neutral-400">{item.company}</p>
-                  <ul className="mt-5 space-y-3 text-sm leading-6 text-neutral-300">
+                <article key={item.title} className="rounded-[24px] border border-sky-200 bg-white/75 p-6">
+                  <p className="text-sm text-sky-800/70">{item.period}</p>
+                  <h3 className="mt-2 text-xl font-semibold text-slate-950">{item.title}</h3>
+                  <p className="mt-1 text-sm uppercase tracking-[0.2em] text-sky-700/80">{item.company}</p>
+                  <ul className="mt-5 space-y-3 text-sm leading-6 text-slate-700">
                     {item.bullets.map((bullet) => (
                       <li key={bullet}>• {bullet}</li>
                     ))}
@@ -371,18 +371,18 @@ const projects = [
           </section>
 
           <section className="grid gap-8 lg:grid-cols-[1.05fr_0.95fr]">
-            <div className="rounded-[28px] border border-white/10 bg-white/[0.03] p-8">
+            <div className="rounded-[28px] border border-white/60 bg-white/55 p-8">
               <div className="mb-8 flex items-center justify-between">
                 <h2 className="text-2xl font-semibold">Engineered Projects</h2>
-                <span className="text-xs uppercase tracking-[0.3em] text-neutral-500">Academic Build Log</span>
+                <span className="text-xs uppercase tracking-[0.3em] text-sky-800/70">Academic Build Log</span>
               </div>
               <div className="space-y-6">
                 {projects.map((project) => (
-                  <article key={project.title} className="rounded-[24px] border border-white/10 bg-black/20 p-6">
-                    <p className="text-sm text-neutral-500">{project.period}</p>
-                    <h3 className="mt-2 text-xl font-semibold text-white">{project.title}</h3>
-                    <p className="mt-1 text-sm uppercase tracking-[0.2em] text-neutral-400">{project.context}</p>
-                    <ul className="mt-5 space-y-3 text-sm leading-6 text-neutral-300">
+                  <article key={project.title} className="rounded-[24px] border border-sky-200 bg-white/75 p-6">
+                    <p className="text-sm text-sky-800/70">{project.period}</p>
+                    <h3 className="mt-2 text-xl font-semibold text-slate-950">{project.title}</h3>
+                    <p className="mt-1 text-sm uppercase tracking-[0.2em] text-sky-700/80">{project.context}</p>
+                    <ul className="mt-5 space-y-3 text-sm leading-6 text-slate-700">
                       {project.bullets.map((bullet) => (
                         <li key={bullet}>• {bullet}</li>
                       ))}
@@ -392,16 +392,16 @@ const projects = [
               </div>
             </div>
           </section>
-                  <section className="rounded-[28px] border border-white/10 bg-white/[0.03] p-8">
+                  <section className="rounded-[28px] border border-white/60 bg-white/55 p-8">
             <div className="mb-8 flex items-center justify-between">
               <h2 className="text-2xl font-semibold">Contact Interface</h2>
-              <span className="text-xs uppercase tracking-[0.3em] text-neutral-500">Direct Line</span>
+              <span className="text-xs uppercase tracking-[0.3em] text-sky-800/70">Direct Line</span>
             </div>
-            <div className="grid gap-4 text-neutral-300">
+            <div className="grid gap-4 text-slate-700">
               <p>📍 Rome, Italy — Open to relocation</p>
               <p>📧 giorgiacortese2609@gmail.com</p>
               <p>📞 +39 392 165 4609</p>
-              <p className="text-neutral-400 text-sm">Portfolio available upon request and designed as a strategic extension of interview discussions.</p>
+              <p className="text-sky-800/70 text-sm">Portfolio available upon request and designed as a strategic extension of interview discussions.</p>
             </div>
           </section>
         </main>
