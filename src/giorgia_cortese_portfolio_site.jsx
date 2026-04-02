@@ -125,7 +125,7 @@ const projects = [
       title: "MSc Digital Transformation — Major in Digital Innovation",
       school: "Luiss Business School",
       details:
-        "Merit-based Mentorship Programme. Core areas include operational process re-engineering, data architecture, AI-led redesign, and technology landscape analysis.",
+        "Merit-based Mentorship Programme. Core areas: Re-engineering operational processes, Data Architecture & IT stack structures, Digital product/solution development, Technology landscape and major trends, AI: re-designing processes and go-to-market, New regulatory and legislative framework, Digital transformation.",
     },
     {
       period: "10/2022 – 10/2025",
