@@ -161,7 +161,7 @@ const projects = [
         <header className="rounded-[28px] border border-white/60 bg-white/55 p-8 shadow-[0_28px_60px_rgba(25,71,128,0.16)] backdrop-blur md:p-12">
           <div className="grid gap-10 lg:grid-cols-[1.25fr_0.75fr] lg:items-end">
             <div>
-              <p className="mb-4 text-xs uppercase tracking-[0.35em] text-sky-800/70">Digital Innovation · Pharma & Chemical Systems · Precision-driven Execution</p>
+              <p className="mb-4 text-xs uppercase tracking-[0.35em] text-sky-800/70">Digital Transformation · Industrial Engineering · Pharma &amp; Biotech Innovation</p>
               <h1 className="max-w-4xl text-4xl font-semibold tracking-tight md:text-6xl">Giorgia Cortese</h1>
               <p className="mt-5 max-w-3xl text-base leading-7 text-slate-700 md:text-lg">
                 A future-facing profile engineered at the intersection of <span className="text-sky-700">digital transformation</span>, <span className="text-sky-700">systems thinking</span>, and <span className="text-sky-700">scientific and industrial sensitivity</span>. Built through industrial engineering, refined through LUISS, and directed toward the premium mobility sector.
