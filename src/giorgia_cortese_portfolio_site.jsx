@@ -16,6 +16,9 @@ export default function GiorgiaCortesePortfolio() {
       "Community-building initiatives",
       "Partnership outreach and sponsorship structuring",
       "Cross-functional coordination",
+      "Analytical problem-solving under technical constraints",
+      "Systems thinking shaped by industrial engineering training",
+      "Quantitative reasoning for structured decision-making",
     ],
     marketIntelligence: [
       "Pharma 4.0 and smart manufacturing principles",
