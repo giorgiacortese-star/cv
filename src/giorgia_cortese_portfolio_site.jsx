@@ -136,19 +136,19 @@ const projects = [
 
   const futureConcepts = [
     {
-      title: "AI-Augmented Manufacturing Intelligence",
+      title: "AI-Driven Digital Transformation",
       text:
-        "The next competitive frontier in pharma and chemical industries lies in the integration of AI-driven decision systems across production pipelines. From predictive quality control to adaptive process optimization, the value chain is evolving toward self-correcting, data-calibrated manufacturing environments that enhance both efficiency and compliance.",
+        "The next competitive frontier lies in reimagining how pharma and biotech organizations operate, leveraging AI, data architecture, and process digitalization to build faster, more adaptive business systems.",
     },
     {
-      title: "Regulatory-Driven Process Excellence",
+      title: "Industrial Process Engineering",
       text:
-        "In pharmaceutical and chemical production, operational excellence is inseparable from regulatory compliance. The future belongs to organizations capable of embedding compliance logic directly into digital workflows, reducing friction between innovation and regulation while maintaining absolute process integrity.",
+        "Operational excellence in pharma and chemical manufacturing depends on the ability to re-engineer production workflows, integrate real-time data, and apply systematic problem-solving to complex industrial systems.",
     },
     {
-      title: "End-to-End Digital Process Integration",
+      title: "Product Innovation & R&D",
       text:
-        "Connectivity in industrial environments should be treated as a structural backbone rather than an add-on. Integrating laboratory data, production systems, and supply chain intelligence into a unified architecture enables continuous monitoring, faster decision-making, and scalable innovation across pharma and chemical ecosystems.",
+        "Bridging laboratory intelligence, biomass-derived formulations, and manufacturing execution into scalable product pipelines is how the next generation of pharma and biotech companies will compete.",
     },
   ];
 
