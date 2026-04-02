@@ -9,16 +9,19 @@ export default function GiorgiaCortesePortfolio() {
       "SQL and database design",
       "Visual storytelling and brand positioning",
     ],
-    leadership: [
-      "Student ambassador representation",
-      "Institutional communication",
-      "Stakeholder alignment",
-      "Community-building initiatives",
-      "Partnership outreach and sponsorship structuring",
-      "Cross-functional coordination",
+    technicalAnalytical: [
       "Analytical problem-solving under technical constraints",
       "Systems thinking shaped by industrial engineering training",
       "Quantitative reasoning for structured decision-making",
+      "CAD modelling and FEM structural analysis",
+      "MATLAB simulation and kinematic synthesis",
+    ],
+    leadershipSoftSkills: [
+      "Student ambassador and institutional representation",
+      "Stakeholder alignment and institutional communication",
+      "Partnership outreach and sponsorship structuring",
+      "Cross-functional coordination",
+      "Community-building and student engagement initiatives",
     ],
     marketIntelligence: [
       "Pharma 4.0 and smart manufacturing principles",
@@ -213,7 +216,7 @@ const projects = [
                 <h2 className="text-2xl font-semibold">Technical Specs</h2>
                 <span className="text-xs uppercase tracking-[0.3em] text-neutral-500">Capabilities Matrix</span>
               </div>
-              <div className="grid gap-6 md:grid-cols-3">
+              <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
                 <div className="rounded-[24px] border border-white/10 bg-black/20 p-5">
                   <h3 className="text-sm font-medium uppercase tracking-[0.25em] text-neutral-400">Digital Innovation</h3>
                   <ul className="mt-4 space-y-3 text-sm leading-6 text-neutral-300">
@@ -223,9 +226,17 @@ const projects = [
                   </ul>
                 </div>
                 <div className="rounded-[24px] border border-white/10 bg-black/20 p-5">
-                  <h3 className="text-sm font-medium uppercase tracking-[0.25em] text-neutral-400">Leadership and Technical Skills</h3>
+                  <h3 className="text-sm font-medium uppercase tracking-[0.25em] text-neutral-400">Technical &amp; Analytical Skills</h3>
                   <ul className="mt-4 space-y-3 text-sm leading-6 text-neutral-300">
-                    {skills.leadership.map((item) => (
+                    {skills.technicalAnalytical.map((item) => (
+                      <li key={item}>• {item}</li>
+                    ))}
+                  </ul>
+                </div>
+                <div className="rounded-[24px] border border-white/10 bg-black/20 p-5">
+                  <h3 className="text-sm font-medium uppercase tracking-[0.25em] text-neutral-400">Leadership &amp; Soft Skills</h3>
+                  <ul className="mt-4 space-y-3 text-sm leading-6 text-neutral-300">
+                    {skills.leadershipSoftSkills.map((item) => (
                       <li key={item}>• {item}</li>
                     ))}
                   </ul>
