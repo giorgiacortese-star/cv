@@ -132,7 +132,7 @@ const projects = [
       title: "BSc Industrial Engineering — Major in Chemical Engineering",
       school: "Università Campus Bio-Medico di Roma",
       details:
-        "Thesis on photoprotective creams, mapping industrial processes from biomass to sunscreens with Caudalie and ISDIN as case studies. Built a rigorous foundation across mechanics, industrial plants, chemistry, and machine design.",
+        "Core exams included Transport Phenomena, Introduction to Sustainable Process Engineering, Solid and Structural Mechanics, Design of Machines and Biomechanical Systems, Theory of Machines and Mechanisms, Mechanics and Thermodynamics, Electromagnetism, and Fundamentals in Computer Science. Thesis on photoprotective creams, mapping industrial processes from biomass to sunscreens with Caudalie and ISDIN as case studies. Student selected for mentorship programme, merit based.",
     },
   ];
 
