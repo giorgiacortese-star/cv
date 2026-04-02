@@ -140,17 +140,17 @@ const projects = [
     {
       title: "AI-Driven Digital Transformation",
       text:
-        "The next competitive frontier lies in reimagining how pharma and biotech organizations operate — leveraging AI, data architecture, and process digitalization to build faster, more adaptive business systems.",
+        "The next competitive frontier lies in reimagining how pharma and biotech organizations operate — leveraging AI, data architecture, and process digitalization to build faster, more adaptive business systems. This is the space where I want to operate — designing and implementing AI-driven transformation initiatives in complex industrial organizations.",
     },
     {
       title: "Industrial Process Engineering",
       text:
-        "Operational excellence in pharma and chemical manufacturing depends on the ability to re-engineer production workflows, integrate real-time data, and apply systematic problem-solving to complex industrial systems.",
+        "Operational excellence in pharma and chemical manufacturing depends on the ability to re-engineer production workflows, integrate real-time data, and apply systematic problem-solving to complex industrial systems. My engineering background positions me to contribute directly to this challenge — translating technical constraints into optimized, data-informed processes.",
     },
     {
       title: "Product Innovation & R&D",
       text:
-        "Bridging laboratory intelligence, biomass-derived formulations, and manufacturing execution into scalable product pipelines is how the next generation of pharma and biotech companies will compete.",
+        "Bridging laboratory intelligence, biomass-derived formulations, and manufacturing execution into scalable product pipelines is how the next generation of pharma and biotech companies will compete. My thesis on bio-based photoprotection systems gave me a first direct exposure to this pipeline — from raw material to scalable formulation.",
     },
   ];
 
