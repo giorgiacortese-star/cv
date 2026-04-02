@@ -298,7 +298,7 @@ const projects = [
                     "C++",
                     "LaTeX",
                     "Canva",
-                    "Notion",
+                    "OpenAI Codex",
                     "Cursor",
                     "Claude",
                     "Gemini",
