@@ -223,7 +223,7 @@ const projects = [
                   </ul>
                 </div>
                 <div className="rounded-[24px] border border-white/10 bg-black/20 p-5">
-                  <h3 className="text-sm font-medium uppercase tracking-[0.25em] text-neutral-400">Leadership</h3>
+                  <h3 className="text-sm font-medium uppercase tracking-[0.25em] text-neutral-400">Leadership and Technical Skills</h3>
                   <ul className="mt-4 space-y-3 text-sm leading-6 text-neutral-300">
                     {skills.leadership.map((item) => (
                       <li key={item}>• {item}</li>
