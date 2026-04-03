@@ -158,6 +158,29 @@ const projects = [
     <div className="min-h-screen bg-[linear-gradient(180deg,#f4fbff_0%,#d7ebff_100%)] text-slate-950 selection:bg-sky-200 selection:text-slate-950">
       <div className="absolute inset-0 opacity-[0.22] [background-image:linear-gradient(to_right,rgba(18,85,160,0.08)_1px,transparent_1px),linear-gradient(to_bottom,rgba(18,85,160,0.08)_1px,transparent_1px)] [background-size:48px_48px]" />
       <div className="relative mx-auto max-w-7xl px-6 py-8 md:px-10 lg:px-12">
+        <nav className="mb-6 rounded-[24px] border border-white/60 bg-white/60 p-5 shadow-[0_28px_60px_rgba(25,71,128,0.16)] backdrop-blur" aria-label="Page agenda">
+          <p className="mb-3 text-xs uppercase tracking-[0.3em] text-sky-800/70">Agenda</p>
+          <div className="flex flex-wrap gap-2.5 text-sm text-slate-800">
+            {[
+              ["#contact", "Contact"],
+              ["#positioning", "Positioning"],
+              ["#capabilities", "Capabilities"],
+              ["#toolkit", "Tools"],
+              ["#languages", "Languages"],
+              ["#current-direction", "Current direction"],
+              ["#professional-summary", "Professional summary"],
+              ["#future-concepts", "Future concepts"],
+              ["#academic-platform", "Academic platform"],
+              ["#pharma-prototype", "Pharma prototype"],
+              ["#selected-roles", "Selected roles"],
+              ["#engineering-build-log", "Engineering build log"],
+            ].map(([href, label]) => (
+              <a key={href} href={href} className="rounded-full border border-sky-200 bg-white/80 px-3 py-2">
+                {label}
+              </a>
+            ))}
+          </div>
+        </nav>
         <header className="rounded-[28px] border border-white/60 bg-white/55 p-8 shadow-[0_28px_60px_rgba(25,71,128,0.16)] backdrop-blur md:p-12">
           <div className="grid gap-10 lg:grid-cols-[1.25fr_0.75fr] lg:items-end">
             <div>
@@ -175,13 +198,13 @@ const projects = [
 
             <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-1">
               <div className="rounded-[24px] border border-sky-200 bg-sky-950/90 p-5">
-                <p className="text-xs uppercase tracking-[0.3em] text-sky-200/70">Positioning</p>
+                <p id="positioning" className="text-xs uppercase tracking-[0.3em] text-sky-200/70">Positioning</p>
                 <p className="mt-3 text-lg leading-7 text-sky-50">
                   Engineering discipline meets AI-driven digital transformation across pharma, biotech, and intelligent manufacturing systems — bridging scientific rigor with data-powered process innovation.
                 </p>
               </div>
               <div className="rounded-[24px] border border-sky-200 bg-cyan-900/90 p-5">
-                <p className="text-xs uppercase tracking-[0.3em] text-cyan-100/70">Current direction</p>
+                <p id="current-direction" className="text-xs uppercase tracking-[0.3em] text-cyan-100/70">Current direction</p>
                 <p className="mt-3 text-lg leading-7 text-cyan-50">
                   Focused on the convergence of industrial chemical engineering and digital transformation in pharma and biotech contexts — spanning process re-engineering, data-driven manufacturing, and AI-powered operational intelligence.
                 </p>
@@ -192,9 +215,9 @@ const projects = [
 
         <main className="mt-8 grid gap-8">
           <section className="grid gap-8 lg:grid-cols-[0.95fr_1.05fr]">
-            <div className="rounded-[28px] border border-white/60 bg-white/55 p-8">
+            <div id="professional-summary" className="rounded-[28px] border border-white/60 bg-white/55 p-8">
               <div className="mb-6 flex items-center justify-between">
-                <h2 className="text-2xl font-semibold">Heritage</h2>
+                <h2 className="text-3xl font-semibold">Heritage</h2>
                 <span className="text-xs uppercase tracking-[0.3em] text-sky-800/70">About Me</span>
               </div>
               <div className="space-y-5 text-slate-700 leading-7">
@@ -210,9 +233,9 @@ const projects = [
               </div>
             </div>
 
-            <div className="rounded-[28px] border border-white/60 bg-white/55 p-8">
+            <div id="capabilities" className="rounded-[28px] border border-white/60 bg-white/55 p-8">
               <div className="mb-6 flex items-center justify-between">
-                <h2 className="text-2xl font-semibold">Technical Specs</h2>
+                <h2 className="text-3xl font-semibold">Technical Specs</h2>
                 <span className="text-xs uppercase tracking-[0.3em] text-sky-800/70">Capabilities Matrix</span>
               </div>
               <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
@@ -252,9 +275,9 @@ const projects = [
             </div>
           </section>
 
-          <section className="rounded-[28px] border border-white/60 bg-white/55 p-8">
+          <section id="future-concepts" className="rounded-[28px] border border-white/60 bg-white/55 p-8">
             <div className="mb-8 flex items-center justify-between">
-              <h2 className="text-2xl font-semibold">Future Concepts</h2>
+              <h2 className="text-3xl font-semibold">Future Concepts</h2>
               <span className="text-xs uppercase tracking-[0.3em] text-sky-800/70">Industry Vision</span>
             </div>
             <div className="grid gap-6 lg:grid-cols-3">
@@ -268,9 +291,9 @@ const projects = [
           </section>
 
           <section className="grid gap-8 lg:grid-cols-[0.95fr_1.05fr]">
-            <div className="rounded-[28px] border border-white/60 bg-white/55 p-8">
+            <div id="academic-platform" className="rounded-[28px] border border-white/60 bg-white/55 p-8">
               <div className="mb-6 flex items-center justify-between">
-                <h2 className="text-2xl font-semibold">Education</h2>
+                <h2 className="text-3xl font-semibold">Education</h2>
                 <span className="text-xs uppercase tracking-[0.3em] text-sky-800/70">Academic Platform</span>
               </div>
               <div className="space-y-5">
@@ -286,9 +309,9 @@ const projects = [
             </div>
 
             <div className="grid gap-8">
-              <section className="rounded-[28px] border border-white/60 bg-white/55 p-8">
+              <section id="toolkit" className="rounded-[28px] border border-white/60 bg-white/55 p-8">
                 <div className="mb-6 flex items-center justify-between">
-                  <h2 className="text-2xl font-semibold">Core Toolkit</h2>
+                  <h2 className="text-3xl font-semibold">Core Toolkit</h2>
                   <span className="text-xs uppercase tracking-[0.3em] text-sky-800/70">Systems & Tools</span>
                 </div>
                 <div className="flex flex-wrap gap-3 text-sm text-slate-700">
@@ -312,9 +335,9 @@ const projects = [
                 </div>
               </section>
 
-              <section className="rounded-[28px] border border-white/60 bg-white/55 p-8">
+              <section id="languages" className="rounded-[28px] border border-white/60 bg-white/55 p-8">
                 <div className="mb-6 flex items-center justify-between">
-                  <h2 className="text-2xl font-semibold">Languages</h2>
+                  <h2 className="text-3xl font-semibold">Languages</h2>
                   <span className="text-xs uppercase tracking-[0.3em] text-sky-800/70">Communication</span>
                 </div>
                 <div className="flex flex-wrap gap-3 text-sm text-slate-700">
@@ -332,9 +355,9 @@ const projects = [
             </div>
           </section>
 
-          <section className="rounded-[28px] border border-white/60 bg-white/55 p-8">
+          <section id="pharma-prototype" className="rounded-[28px] border border-white/60 bg-white/55 p-8">
             <div className="mb-8 flex items-center justify-between">
-              <h2 className="text-2xl font-semibold">Pharma Prototype</h2>
+              <h2 className="text-3xl font-semibold">Pharma Prototype</h2>
               <span className="text-xs uppercase tracking-[0.3em] text-sky-800/70">Flagship Project</span>
             </div>
             <article className="rounded-[24px] border border-sky-200 bg-white/75 p-6">
@@ -349,9 +372,9 @@ const projects = [
             </article>
           </section>
 
-          <section className="rounded-[28px] border border-white/60 bg-white/55 p-8">
+          <section id="selected-roles" className="rounded-[28px] border border-white/60 bg-white/55 p-8">
             <div className="mb-8 flex items-center justify-between">
-              <h2 className="text-2xl font-semibold">The Prototype</h2>
+              <h2 className="text-3xl font-semibold">The Prototype</h2>
               <span className="text-xs uppercase tracking-[0.3em] text-sky-800/70">Experience</span>
             </div>
             <div className="grid gap-6 lg:grid-cols-2">
@@ -371,9 +394,9 @@ const projects = [
           </section>
 
           <section className="grid gap-8 lg:grid-cols-[1.05fr_0.95fr]">
-            <div className="rounded-[28px] border border-white/60 bg-white/55 p-8">
+            <div id="engineering-build-log" className="rounded-[28px] border border-white/60 bg-white/55 p-8">
               <div className="mb-8 flex items-center justify-between">
-                <h2 className="text-2xl font-semibold">Engineered Projects</h2>
+                <h2 className="text-3xl font-semibold">Engineered Projects</h2>
                 <span className="text-xs uppercase tracking-[0.3em] text-sky-800/70">Academic Build Log</span>
               </div>
               <div className="space-y-6">
@@ -392,9 +415,9 @@ const projects = [
               </div>
             </div>
           </section>
-                  <section className="rounded-[28px] border border-white/60 bg-white/55 p-8">
+                  <section id="contact" className="rounded-[28px] border border-white/60 bg-white/55 p-8">
             <div className="mb-8 flex items-center justify-between">
-              <h2 className="text-2xl font-semibold">Contact Interface</h2>
+              <h2 className="text-3xl font-semibold">Contact Interface</h2>
               <span className="text-xs uppercase tracking-[0.3em] text-sky-800/70">Direct Line</span>
             </div>
             <div className="grid gap-4 text-slate-700">
