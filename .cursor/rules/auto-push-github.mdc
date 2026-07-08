@@ -1,0 +1,14 @@
+---
+description: Auto-commit and push changes to GitHub after every modification
+alwaysApply: true
+---
+
+# Auto-push to GitHub
+
+After completing any file modification in this repository:
+
+1. Stage only the files changed in the current task (never add unrelated untracked files such as PDFs, `.DS_Store`, or personal assets unless explicitly requested).
+2. Create a concise commit message describing the change.
+3. Push to `origin/main` without waiting for a separate push request.
+
+If the push fails (auth, network, or branch protection), report the error and leave the commit local.
